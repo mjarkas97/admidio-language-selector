@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update>
+    <step id="10">CREATE TABLE %PREFIX%_plg_language_switcher (lsw_usr_id integer unsigned NOT NULL, lsw_language varchar(10) NOT NULL, PRIMARY KEY (lsw_usr_id)) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci</step>
+    <step id="20">ALTER TABLE %PREFIX%_plg_language_switcher ADD CONSTRAINT %PREFIX%_fk_lsw_usr FOREIGN KEY (lsw_usr_id) REFERENCES %PREFIX%_users (usr_id) ON DELETE CASCADE ON UPDATE RESTRICT</step>
+    <step>stop</step>
+</update>
