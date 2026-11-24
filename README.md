@@ -66,6 +66,11 @@ plugins/language-switcher/
 └── db_scripts/                              creates and removes the table
 ```
 
+## Support
+
+The plugin is free. If it is useful for your organization, you can support its development on
+[Ko-fi](https://ko-fi.com/mjarkas).
+
 ## License
 
 GNU General Public License v2.0 only, the same license as Admidio. See [LICENSE](LICENSE).
