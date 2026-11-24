@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="PLG_LANGUAGE_SWITCHER_DESCRIPTION">Jeder Besucher kann die Sprache der Admidio-Oberfläche im Kopfbereich auswählen. Angemeldete Benutzer behalten die Auswahl auf allen Geräten, Besucher auf diesem Gerät. Von der Organisation eingegebene Inhalte werden nicht übersetzt.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_LABEL">Sprache</string>
+  <string name="PLG_LANGUAGE_SWITCHER_LANGUAGES">Angebotene Sprachen</string>
+  <string name="PLG_LANGUAGE_SWITCHER_LANGUAGES_DESC">Sprachcodes durch Kommas getrennt, z. B. de,en,pl. de steht für Deutsch mit Du, de-DE für Deutsch mit Sie. Die Auswahl wird nur angezeigt, wenn mindestens zwei installierte Sprachen eingetragen sind.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_NAME">Sprachauswahl</string>
+</resources>

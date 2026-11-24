@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="PLG_LANGUAGE_SWITCHER_DESCRIPTION">Lets every visitor choose the language of the Admidio interface in the header. A logged-in user keeps the choice on all devices, a visitor on this device. Content entered by the organization is not translated.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_LABEL">Language</string>
+  <string name="PLG_LANGUAGE_SWITCHER_LANGUAGES">Offered languages</string>
+  <string name="PLG_LANGUAGE_SWITCHER_LANGUAGES_DESC">Language codes separated by commas, e.g. de,en,pl. Use de for the informal and de-DE for the formal German. The selection is only shown if at least two installed languages are entered.</string>
+  <string name="PLG_LANGUAGE_SWITCHER_NAME">Language switcher</string>
+</resources>

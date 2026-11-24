@@ -1,0 +1,28 @@
+{
+    "id": "language-switcher",
+    "name": "PLG_LANGUAGE_SWITCHER_NAME",
+    "description": "PLG_LANGUAGE_SWITCHER_DESCRIPTION",
+    "version": "1.1.0",
+    "author": "Mohammad Jarkas",
+    "url": "https://github.com/mjarkas97/admidio-language-selector",
+    "icon": "bi-translate",
+    "menu": false,
+    "requires": {
+        "admidio": ">=5.1",
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "AdmidioPlugin\\LanguageSwitcher\\": "src/"
+    },
+    "preferences": {
+        "section": "system"
+    },
+    "settings": {
+        "language_switcher_languages": {
+            "type": "string",
+            "default": "de,en",
+            "label": "PLG_LANGUAGE_SWITCHER_LANGUAGES",
+            "description": "PLG_LANGUAGE_SWITCHER_LANGUAGES_DESC"
+        }
+    }
+}
